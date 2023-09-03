@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,16 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Add to Card</title>
+  <title>Add to Cart </title>
 </head>
 <body>
-<main class="cd-main container margin-top-xxl">
+<main class="cd-main container ">
   <div class="text-component text-center">
-    <h1>Add to Cart Interaction</h1>
-    <p class="flex flex-wrap flex-center flex-gap-xxs">
-     
-      <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" data-price="25.99">Add To Cart</a>
-    </p>
+    <h1>Add to Cart </h1>
+	<table><tr>
+		<td><p class="flex flex-wrap flex-center flex-gap-xxs">
+			
+			<img src="assets/img/product-preview.png" alt="placeholder" style="width: 100%;">
+			<p>Product 1</p>
+			<p>Prix: 25.99 DT</p>
+			<p>Quantity</p><input type="number" id="product1" step="1"  value="1" min="1">
+			<a href="#0" class="cd-add-to-cart js-cd-add-to-cart" prodid="1" data-price="25.99"  product-name="product1">Add To Cart</a>
+			
+		  </p></td>
+		<td><p class="flex flex-wrap flex-center flex-gap-xxs">
+			
+			<img src="assets/img/product-preview.png" alt="placeholder" style="width: 100%;">
+			<p>Product 2</p>
+			<p>Prix: 60 DT</p>
+			<p>Quantity</p><input type="number" id="product2" step="1"  value="1" min="1">
+			<a href="#0" class="cd-add-to-cart js-cd-add-to-cart" prodid="2" data-price="60" product-name="product2">Add To Cart</a>
+			
+		  </p></td>
+		  <td><p class="flex flex-wrap flex-center flex-gap-xxs">
+			
+			<img src="assets/img/product-preview.png" alt="placeholder" style="width: 100%;">
+			<p>Product 3</p>
+			<p>Prix: 30 DT</p>
+			<p>Quantity</p><input type="number" id="product3" step="1"  value="1" min="1"> 
+			<a href="#0" class="cd-add-to-cart js-cd-add-to-cart" prodid="3" data-price="30" product-name="product3">Add To Cart</a>
+			
+		</p></td>
+		  <td><p class="flex flex-wrap flex-center flex-gap-xxs">
+			
+			<img src="assets/img/product-preview.png" alt="placeholder" style="width: 100%;">
+			<p>Product 4</p>
+			<p>Prix: 100 DT</p>
+			<p>Quantity</p><input type="number" id="product4" step="1" value="1" min="1"> 
+			<a href="#0" class="cd-add-to-cart js-cd-add-to-cart" prodid="4" data-price="100" product-name="Product 4">Add To Cart</a>
+			 
+		</p></td>
+	</tr>
+	</table>
+    
   </div>
 </main>
 
